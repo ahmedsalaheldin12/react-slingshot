@@ -43,6 +43,6 @@ workflows:
             - "build"
       - analyze:
           requires:
-            - "analyze"
+            - "test"
       
          
